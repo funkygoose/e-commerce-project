@@ -18,6 +18,10 @@ img {
     padding: 20px;
 }
 
+p {
+    line-height: 1.5;
+}
+
 .nav__container {
     width: 100%;
     max-width: 1200px;
@@ -125,6 +129,7 @@ button:active {
 
 .header__img--wrapper {
     padding: 20px;
+    z-index: 2;
 }
 
 .row {
@@ -138,3 +143,78 @@ button:active {
 HIGHLIGHTS
 
 */
+
+#highlights {
+    position: relative;
+}
+
+#highlights:before,
+#highlights:after {
+    
+    background: url('assets/wave.svg');
+    content: "";
+    position: absolute;
+    width: 101vw;
+    height: 12vw;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+#highlights:before {
+    transform:translateY(-100%);
+    top: 1px;
+    
+}
+
+#highlights:after {
+    transform: translateY(100%) rotate(180deg);
+    bottom: 1px;
+}
+
+.highlight__wrapper {
+    display: flex;
+}
+
+.highlight {
+    padding: 0 24px;
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.highlight__para {
+    text-align: center;
+    max-width: 260px;
+}
+
+.highlight__img {
+    border: 2px solid #916eca48;
+    width: 100px;
+    color: #916eca;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.highlight__subtitle {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+/* 
+
+FEATURES
+
+*/
+
+#features {
+    background-color: #ffe8be;
+}
