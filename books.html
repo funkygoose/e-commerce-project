@@ -50,11 +50,10 @@
       <div class="container">
         <div class="row">
           <div class="books__header">
-
             <h2 class="section__title books__header--title">
               All <span class="purple">Books</span>
             </h2>
-            <select id="filter" id="">
+            <select id="filter" onchange="filterBooks(event)">
               <option value="" disabled selected>Sort</option>
               <option value="LOW_TO_HIGH">Price, Low to High</option>
               <option value="HIGH_TO_LOW">Price, High to Low</option>
@@ -62,8 +61,8 @@
             </select>
           </div>
           <div class="books">
-
-          </div>  
+            
+          </div>
         </div>
       </div>
     </section>
@@ -83,7 +82,7 @@
           <a href="#features" class="footer__link">Books</a>
           <a class="footer__link no-cursor">Contact</a>
         </div>
-        <div class="footer__copyright">Copyright &copy; 2022 Library</div>
+        <div class="footer__copyright">Copyright &copy; 202 Library</div>
       </div>
     </div>
   </footer>
