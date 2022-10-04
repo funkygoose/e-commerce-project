@@ -212,7 +212,7 @@ header {
 
   /* Added this after the tutorial to 
   show it over the wave on larger screens */
-  z-index: 100;
+  /* z-index: 100; */
 }
 
 .container {
