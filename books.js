@@ -80,93 +80,79 @@ function getBooks() {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve([
-        {
-          id: 1,
-          title: "Crack the Coding Interview",
-          url: "assets/crack the coding interview.png",
-          originalPrice: 49.95,
-          salePrice: 14.95,
-          rating: 4.5,
-        },
-        {
-          id: 2,
-          title: "Atomic Habits",
-          url: "assets/atomic habits.jpg",
-          originalPrice: 39,
-          salePrice: null,
-          rating: 5,
-        },
-        {
-          id: 3,
-          title: "Deep Work",
-          url: "assets/deep work.jpeg",
-          originalPrice: 29,
-          salePrice: 12,
-          rating: 5,
-        },
-        {
-          id: 4,
-          title: "The 10X Rule",
-          url: "assets/book-1.jpeg",
-          originalPrice: 44,
-          salePrice: 19,
-          rating: 4.5,
-        },
-        {
-          id: 5,
-          title: "Be Obsessed Or Be Average",
-          url: "assets/book-2.jpeg",
-          originalPrice: 32,
-          salePrice: 17,
-          rating: 4,
-        },
-        {
-          id: 6,
-          title: "Rich Dad Poor Dad",
-          url: "assets/book-3.jpeg",
-          originalPrice: 70,
-          salePrice: 12.5,
-          rating: 5,
-        },
-        {
-          id: 7,
-          title: "Cashflow Quadrant",
-          url: "assets/book-4.jpeg",
-          originalPrice: 11,
-          salePrice: 10,
-          rating: 4,
-        },
-        {
-          id: 8,
-          title: "48 Laws of Power",
-          url: "assets/book-5.jpeg",
-          originalPrice: 38,
-          salePrice: 17.95,
-          rating: 4.5,
-        },
-        {
-          id: 9,
-          title: "The 5 Second Rule",
-          url: "assets/book-6.jpeg",
-          originalPrice: 35,
-          salePrice: null,
-          rating: 2,
-        },
-        {
-          id: 10,
-          title: "Your Next Five Moves",
-          url: "assets/book-7.jpg",
-          originalPrice: 40,
-          salePrice: null,
-          rating: 4,
-        },
-        {
-          id: 11,
-          title: "Mastery",
-          url: "assets/book-8.jpeg",
-          originalPrice: 30,
-          salePrice: null,
-          rating: 4.5,
+        {[
+
+          {
+          "Title":"Fast & Furious 6",
+          "Year":"2013",
+          "imdbID":"tt1905041",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_SX300.jpg"
+          },
+          {
+          "Title":"The Fast and the Furious",
+          "Year":"2001",
+          "imdbID":"tt0232500",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BNzlkNzVjMDMtOTdhZC00MGE1LTkxODctMzFmMjkwZmMxZjFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+          },
+          {
+          "Title":"Fast Five",
+          "Year":"2011",
+          "imdbID":"tt1596343",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BMTUxNTk5MTE0OF5BMl5BanBnXkFtZTcwMjA2NzY3NA@@._V1_SX300.jpg"
+          },
+          {
+          "Title":"Fast & Furious",
+          "Year":"2009",
+          "imdbID":"tt1013752",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BYjQ1ZTMxNzgtZDcxOC00NWY5LTk3ZjAtYzRhMDhlNDZlOWEzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+          },
+          {
+            "Title":"2 Fast 2 Furious",
+            "Year":"2003",
+            "imdbID":"tt0322259",
+            "Type":"movie",
+            "Poster":"https://m.media-amazon.com/images/M/MV5BMzExYjcyYWMtY2JkOC00NDUwLTg2OTgtMDI3MGY2OWQzMDE2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+          },
+          {
+            "Title":"The Fast and the Furious: Tokyo Drift",
+            "Year":"2006",
+            "imdbID":"tt0463985",
+            "Type":"movie",
+            "Poster":"https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_SX300.jpg"
+          },
+          {
+            "Title":"Fast & Furious Presents: Hobbs & Shaw",
+            "Year":"2019",
+            "imdbID":"tt6806448",
+            "Type":"movie",
+            "Poster":"https://m.media-amazon.com/images/M/MV5BOTIzYmUyMmEtMWQzNC00YzExLTk3MzYtZTUzYjMyMmRiYzIwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg"
+          },
+          {
+            "Title":"F9: The Fast Saga",
+            "Year":"2021","imdbID":"tt5433138",
+            "Type":"movie",
+            "Poster":"https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg"
+          },
+          {
+            "Title":"Fast Times at Ridgemont High",
+            "Year":"1982",
+            "imdbID":"tt0083929",
+            "Type":"movie",
+            "Poster":"https://m.media-amazon.com/images/M/MV5BYzBlZjE1MDctYjZmZC00ZTJmLWFkOWEtYjdmZDZkODBkZmI2XkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg"
+          },
+          {
+            "Title":"How to Sell Drugs Online (Fast)",
+            "Year":"2019–",
+            "imdbID":"tt9184994",
+            "Type":"series",
+            "Poster":"https://m.media-amazon.com/images/M/MV5BZjIzNTkyNjktNDdmMy00MmI4LWFlN2MtNDllYTVhZjljNWFiXkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_SX300.jpg"
+          }
+          ],
+            "totalResults":"832","Response":"True"}
         },
       ]);
     }, 1000);
