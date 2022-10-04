@@ -184,11 +184,11 @@ LANDING
 */
 
 #landing {
-  background-color: rgba(115, 66, 214, 0.1)
+  background-color: rgba(249, 187, 125, 0.309);
 }
 
 header {
-  height: calc(124vh - 32px);
+  height: calc(108vh - 32px);
 }
 
 .header__container {
@@ -313,7 +313,7 @@ FEATURES
 
 #features {
   padding-top: 8vw;
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: rgba(249, 187, 125, 0.309);
 }
 
 .books {
@@ -374,7 +374,7 @@ EXPLORE
 */
 
 #explore {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: rgba(249, 187, 125, 0.309);
 }
 
 /* 
