@@ -604,56 +604,13 @@ display: none ;
   text-align: center;
 }
 
-/* 
-
-FEATURES 
-
-*/
 
 #features {
   padding-top: 8vw;
   background-color: rgba(249, 187, 125, 0.309);
 }
 
-.books {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.book {
-  width: 25%;
-  padding: 24px;
-}
-
-.book__img {
-  max-height: 380px;
-  transition: all 300ms ease;
-  cursor: not-allowed;
-  /* Added after tutorial to maintain image aspect ratio */
-  object-fit: contain;
-  object-position: left;
-}
-
-.book__img--wrapper {
-  margin-bottom: 8px;
-  border-radius: 4px;
-  overflow: hidden;
-  display: flex;
-}
-
-.book:hover .book__img {
-  transform: scale(1.03);
-}
-
-.book__title {
-  font-size: 20px;
-  margin-bottom: 8px;
-}
-
-.book__title:hover {
-  text-decoration: underline;
-  cursor: not-allowed;
-}
 
 .book__ratings {
   margin-bottom: 8px;
