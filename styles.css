@@ -545,21 +545,6 @@ display: none ;
 
 
 
-#highlights:before {
-  transform: translateY(-100%);
-  top: 1px;
-}
-
-#highlights:after {
-  transform: translateY(100%) rotate(180deg);
-  bottom: 1px;
-}
-
-.highlight__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .highlight {
   padding: 0 24px;
   width: calc(100% / 3);
