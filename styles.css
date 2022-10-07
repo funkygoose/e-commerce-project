@@ -544,7 +544,7 @@ display: none ;
 
 
 
-#highlights:after,
+/* #highlights:after,
 #highlights:before {
   background: url('assets/wave.svg');
   content: "";
@@ -707,5 +707,5 @@ select {
   width: 100%;
   max-width: 200px;
 }
-
+ */
 
